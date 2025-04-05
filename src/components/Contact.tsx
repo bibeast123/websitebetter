@@ -28,7 +28,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="mailto:your.email@example.com" 
+                    href="mailto:bidhan.devkota@example.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="Email"
@@ -38,10 +38,10 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">Email</h3>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:bidhan.devkota@example.com"
                   className="text-primary hover:underline"
                 >
-                  your.email@example.com
+                  bidhan.devkota@example.com
                 </a>
               </div>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="https://www.linkedin.com/in/yourprofile" 
+                    href="https://www.linkedin.com/in/bidhandevkota" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -63,12 +63,12 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">LinkedIn</h3>
                 <a
-                  href="https://www.linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/bidhandevkota"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  linkedin.com/in/yourprofile
+                  linkedin.com/in/bidhandevkota
                 </a>
               </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/bidhandevkota" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -90,12 +90,12 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">GitHub</h3>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/bidhandevkota"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  github.com/yourusername
+                  github.com/bidhandevkota
                 </a>
               </div>
 
@@ -108,7 +108,7 @@ const Contact = () => {
                 >
                   <a 
                     href="/resume.pdf" 
-                    download="YourName_Resume.pdf"
+                    download="Bidhan_Devkota_Resume.pdf"
                     aria-label="Resume"
                   >
                     <FileDown className="h-8 w-8 text-primary" />
@@ -117,7 +117,7 @@ const Contact = () => {
                 <h3 className="text-lg font-medium mb-1">Resume</h3>
                 <a
                   href="/resume.pdf"
-                  download="YourName_Resume.pdf"
+                  download="Bidhan_Devkota_Resume.pdf"
                   className="text-primary hover:underline"
                 >
                   Download CV

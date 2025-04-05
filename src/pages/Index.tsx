@@ -20,7 +20,7 @@ const Index = () => {
       </main>
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container text-center">
-          <p>© {new Date().getFullYear()} Your Name | Portfolio</p>
+          <p>© {new Date().getFullYear()} Bidhan Devkota | Portfolio</p>
           <p className="text-sm mt-2 text-primary-foreground/80">
             Designed and built with ❤️
           </p>

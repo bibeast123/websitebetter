@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-              Hi, I'm <span className="text-primary">Your Name</span>
+              Hi, I'm <span className="text-primary">Bidhan Devkota</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl font-medium text-foreground/80 mb-6">
               Frontend Developer
