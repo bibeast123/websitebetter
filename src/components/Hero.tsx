@@ -18,12 +18,12 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Bidhan Devkota</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl font-medium text-foreground/80 mb-6">
-              Frontend Developer
+              Software Engineer
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              I build exceptional and accessible digital experiences for the web.
-              With a passion for clean code and user-centric design, I create
-              solutions that are both beautiful and functional.
+              Computer Science student at the University of Texas at Austin. 
+              Passionate about exploring diverse areas of technology, from full-stack 
+              development to AI and machine learning.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button

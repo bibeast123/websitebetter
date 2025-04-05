@@ -11,9 +11,8 @@ const Contact = () => {
         <h2 className="section-title">Get In Touch</h2>
         <div className="max-w-2xl mx-auto text-center mb-12">
           <p className="text-lg text-muted-foreground">
-            I'm currently looking for new opportunities. Whether you have a
-            question or just want to say hi, I'll get back to you as soon as
-            possible!
+            I'm currently a computer science student at UT Austin. Whether you have a
+            question about my work or would like to connect, I'll get back to you as soon as possible!
           </p>
         </div>
 
@@ -28,7 +27,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="mailto:bidhan.devkota@example.com" 
+                    href="mailto:bidhan.devkota@gmail.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="Email"
@@ -38,10 +37,10 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">Email</h3>
                 <a
-                  href="mailto:bidhan.devkota@example.com"
+                  href="mailto:bidhan.devkota@gmail.com"
                   className="text-primary hover:underline"
                 >
-                  bidhan.devkota@example.com
+                  bidhan.devkota@gmail.com
                 </a>
               </div>
 
@@ -53,7 +52,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="https://www.linkedin.com/in/bidhandevkota" 
+                    href="https://www.linkedin.com/in/bidhan-devkota/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -63,12 +62,12 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">LinkedIn</h3>
                 <a
-                  href="https://www.linkedin.com/in/bidhandevkota"
+                  href="https://www.linkedin.com/in/bidhan-devkota/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  linkedin.com/in/bidhandevkota
+                  linkedin.com/in/bidhan-devkota
                 </a>
               </div>
 
@@ -80,7 +79,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="https://github.com/bidhandevkota" 
+                    href="https://github.com/bibeast123" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -90,12 +89,12 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">GitHub</h3>
                 <a
-                  href="https://github.com/bidhandevkota"
+                  href="https://github.com/bibeast123"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  github.com/bidhandevkota
+                  github.com/bibeast123
                 </a>
               </div>
 

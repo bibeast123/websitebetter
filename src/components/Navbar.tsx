@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -32,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="text-xl font-bold text-primary">
-          Portfolio
+          Bidhan Devkota
         </a>
         <nav className="hidden md:flex items-center space-x-8">
           <button
@@ -66,9 +65,15 @@ const Navbar = () => {
             Contact
           </button>
         </nav>
-        <Button size="sm" className="hidden md:flex items-center gap-2">
-          <FileDown size={16} />
-          Resume
+        <Button 
+          size="sm" 
+          className="hidden md:flex items-center gap-2"
+          asChild
+        >
+          <a href="/resume.pdf" download="Bidhan_Devkota_Resume.pdf">
+            <FileDown size={16} />
+            Resume
+          </a>
         </Button>
 
         {/* Mobile menu button */}
@@ -149,9 +154,15 @@ const Navbar = () => {
           >
             Contact
           </button>
-          <Button size="sm" className="flex items-center gap-2 w-full justify-center">
-            <FileDown size={16} />
-            Resume
+          <Button 
+            size="sm" 
+            className="flex items-center gap-2 w-full justify-center"
+            asChild
+          >
+            <a href="/resume.pdf" download="Bidhan_Devkota_Resume.pdf">
+              <FileDown size={16} />
+              Resume
+            </a>
           </Button>
         </div>
       </div>

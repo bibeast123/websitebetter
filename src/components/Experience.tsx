@@ -8,33 +8,33 @@ import { Calendar, MapPin } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    period: "Jan 2021 - Present",
+    role: "Software Engineer Intern | Generative AI",
+    company: "AT&T",
+    location: "Dallas, TX",
+    period: "June 2024 - August 2024",
     description:
-      "Led the development of a React-based dashboard application used by over 5,000 daily active users. Implemented state management with Redux and improved load times by 30% through code splitting and lazy loading.",
-    technologies: ["React", "TypeScript", "Redux", "Tailwind CSS"],
+      "Developed a Generative AI automation tool using React, Azure, Databricks, and FastAPI, streamlining audit tax request processing by 35%. Presented to CEO and board, leading to company-wide adoption and $25 million in annual cost savings. Engineered a call center solution with Python, Flask, and React with a custom language model for instantaneous transcription, boosting response time by 55% (patent pending).",
+    technologies: ["React", "Azure", "Databricks", "FastAPI", "Python", "Flask"],
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Digital Solutions",
-    location: "New York, NY",
-    period: "Mar 2018 - Dec 2020",
+    role: "Software Engineer Intern | Full-Stack",
+    company: "AT&T",
+    location: "Dallas, TX",
+    period: "June 2023 - August 2023",
     description:
-      "Built responsive web applications with React and Vue.js. Collaborated with UX designers to implement pixel-perfect interfaces and improved application performance through optimized rendering strategies.",
-    technologies: ["React", "Vue.js", "JavaScript", "SCSS"],
+      "Developed an AI Data Usage Optimizer using Flask, Python, and HTML/CSS for proactive data plan adjustments, increasing customer retention by 33% (patent pending). Enhanced TOM application using Angular, Java, SQL, and REST APIs, significantly improving user experience for 2,000 weekly unique users. Implemented a scalable bug-tracking system using JIRA, improving issue resolution time by 30%.",
+    technologies: ["Angular", "Java", "SQL", "Flask", "Python", "JIRA"],
   },
   {
     id: 3,
-    role: "Junior Web Developer",
-    company: "StartUp Labs",
-    location: "Boston, MA",
-    period: "Jun 2016 - Feb 2018",
+    role: "Software Engineer Intern | Data Analytics",
+    company: "Federal Aviation Administration",
+    location: "Fort Worth, TX",
+    period: "June 2022 - May 2023",
     description:
-      "Developed and maintained client websites using HTML, CSS, and JavaScript. Worked with a team of designers and developers to create custom WordPress themes and plugins.",
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
+      "Created monthly Tableau dashboards to track 30,000+ clearance activities for FAA security teams. Automated FAA document analysis using Python web scraping, identifying over 3,000 instances of exclusive language. Authored a policy recommendation to change the language used in all FAA policies to inclusive language, affecting the agency's 45,000 employees.",
+    technologies: ["Tableau", "Python", "Data Analytics", "Web Scraping"],
   },
 ];
 

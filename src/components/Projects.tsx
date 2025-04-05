@@ -8,33 +8,63 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
+    title: "Austin Wheels",
     description:
-      "A comprehensive dashboard for e-commerce businesses to track sales, inventory, and customer data in real-time.",
+      "A website serving the wheelchair-bound community in the Austin Area, providing information about wheelchair-accessible locations and transportation options in the Greater Austin Area.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
+    technologies: ["React", "JavaScript", "Accessibility", "Google Maps API"],
     liveLink: "#",
-    repoLink: "#",
+    repoLink: "https://github.com/bibeast123/austin-wheels",
   },
   {
     id: 2,
-    title: "Weather Application",
+    title: "AI Data Optimizer",
     description:
-      "A responsive weather app that provides current conditions and forecasts for any location. Features include interactive maps and severe weather alerts.",
+      "Machine learning model with front end showing an Internet Usage recommender. Helps users optimize their data usage patterns and suggests better plans.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    technologies: ["Vue.js", "JavaScript", "CSS", "Weather API"],
+    technologies: ["Python", "Flask", "Machine Learning", "HTML/CSS"],
     liveLink: "#",
-    repoLink: "#",
+    repoLink: "https://github.com/bibeast123/ai-data-optimizer",
   },
   {
     id: 3,
-    title: "Task Management System",
+    title: "Recell",
     description:
-      "A full-stack application for managing tasks and projects. Includes features like drag-and-drop organization, due dates, and team collaboration.",
+      "Full Stack website marketplace for people to list, discover and safely dispose of electronics. Features secure transactions, user ratings, and environmental impact tracking.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     liveLink: "#",
-    repoLink: "#",
+    repoLink: "https://github.com/bibeast123/recell",
+  },
+  {
+    id: 4,
+    title: "March Madness Predictor",
+    description:
+      "Machine learning project that aims to predict the outcome of March Madness matchups using historical data found on Kaggle.",
+    image: "https://images.unsplash.com/photo-1546519638-68e109acd27d",
+    technologies: ["Python", "Machine Learning", "pandas", "NumPy", "Matplotlib"],
+    liveLink: "#",
+    repoLink: "https://github.com/bibeast123/march-madness-predictor",
+  },
+  {
+    id: 5,
+    title: "Amazon Price Tracker",
+    description:
+      "Automation Web Scraper using Python and Selenium that tracks product prices on Amazon and alerts users when prices drop below their target.",
+    image: "https://images.unsplash.com/photo-1523289619493-a2186f38e263",
+    technologies: ["Python", "Selenium", "Web Scraping", "Automation"],
+    liveLink: "#",
+    repoLink: "https://github.com/bibeast123/amazon-price-tracker",
+  },
+  {
+    id: 6,
+    title: "Tuner",
+    description:
+      "Takes in audio input from wav files and displays back what note is being played. Built using a custom OS system with real-time audio processing.",
+    image: "https://images.unsplash.com/photo-1513829596324-4bb2800c5efb",
+    technologies: ["C/C++", "Custom OS", "Audio Processing", "DSP"],
+    liveLink: "#",
+    repoLink: "https://github.com/bibeast123/tuner",
   },
 ];
 
@@ -42,7 +72,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-secondary/50 py-20 md:py-32">
       <div className="section-container">
-        <h2 className="section-title">Featured Projects</h2>
+        <h2 className="section-title">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <Card
@@ -74,23 +104,13 @@ const Projects = () => {
               <CardFooter className="mt-auto pt-4">
                 <div className="flex gap-4 w-full">
                   <Button
-                    variant="default"
-                    className="flex-1"
-                    asChild
-                  >
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink size={16} className="mr-2" />
-                      Live Demo
-                    </a>
-                  </Button>
-                  <Button
                     variant="outline"
                     className="flex-1"
                     asChild
                   >
                     <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
                       <Github size={16} className="mr-2" />
-                      Code
+                      GitHub
                     </a>
                   </Button>
                 </div>
