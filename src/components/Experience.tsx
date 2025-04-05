@@ -44,11 +44,8 @@ const Experience = () => {
       <div className="section-container">
         <h2 className="section-title">Work Experience</h2>
         <div className="space-y-8">
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <div key={exp.id} className="relative">
-              {index !== experiences.length - 1 && (
-                <div className="absolute left-8 top-16 bottom-0 w-0.5 bg-primary/20" />
-              )}
               <Card className="shadow-md hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-2">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
