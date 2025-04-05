@@ -12,9 +12,9 @@ const projects = [
     description:
       "A website serving the wheelchair-bound community in the Austin Area, providing information about wheelchair-accessible locations and transportation options in the Greater Austin Area.",
     image: "logoaw.20f707dc47846cab4257 (1).png",
-    technologies: ["React", "JavaScript", "Accessibility", "Google Maps API"],
+    technologies: ["React", "JavaScript", "Postman", "Google Maps API", "AWS", "Flask", "Python", "Selenium", "SQlAlchemy"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/austin-wheels",
+    repoLink: "https://gitlab.com/Bidhan123/austin-wheels",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projects = [
     image: "generative-ai-social-1600x627 (1).png",
     technologies: ["Python", "Flask", "Machine Learning", "HTML/CSS"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/ai-data-optimizer",
+    repoLink: "https://github.com/bibeast123/AI-Data-optimizer",
   },
   {
     id: 3,
@@ -32,9 +32,9 @@ const projects = [
     description:
       "Full Stack website marketplace for people to list, discover and safely dispose of electronics. Features secure transactions, user ratings, and environmental impact tracking.",
     image: "recell im2 (1).png",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
+    technologies: ["Angular", "Firebase", "Express", "MongoDB"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/recell",
+    repoLink: "https://github.com/bibeast123/Recell",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const projects = [
     image: "download (1).png",
     technologies: ["Python", "Machine Learning", "pandas", "NumPy", "Matplotlib"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/march-madness-predictor",
+    repoLink: "https://github.com/bibeast123/march_madness_predictor",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const projects = [
     image: "download (2).png",
     technologies: ["Python", "Selenium", "Web Scraping", "Automation"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/amazon-price-tracker",
+    repoLink: "https://github.com/bibeast123/AmazonPriceTracker",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1513829596324-4bb2800c5efb",
     technologies: ["C/C++", "Custom OS", "Audio Processing", "DSP"],
     liveLink: "#",
-    repoLink: "https://github.com/bibeast123/tuner",
+    repoLink: "hhttps://github.com/bibeast123/Tuner",
   },
 ];
 
