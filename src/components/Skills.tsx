@@ -31,7 +31,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 md:py-32">
+    <section id="skills" className="py-20 md:py-12">
       <div className="section-container">
         <h2 className="section-title">Technical Skills</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

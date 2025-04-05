@@ -70,7 +70,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-secondary/50 py-20 md:py-32">
+    <section id="projects" className="bg-secondary/50 py-20 md:py-12">
       <div className="section-container">
         <h2 className="section-title">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

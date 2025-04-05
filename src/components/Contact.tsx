@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, FileDown } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 md:py-32">
+    <section id="contact" className="py-20 md:py-12">
       <div className="section-container">
         <h2 className="section-title">Get In Touch</h2>
         <div className="max-w-2xl mx-auto text-center mb-12">
