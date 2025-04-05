@@ -44,17 +44,24 @@ const Hero = () => {
             </div>
           </div>
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-primary rounded-full blur-xl opacity-70"></div>
-              <div className="relative aspect-square w-64 sm:w-80 rounded-full overflow-hidden border-4 border-white shadow-xl bg-muted">
-                <img
-                  src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
-                  alt="Professional portrait"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
+  <div className="relative">
+    {/* Gradient Glow */}
+    <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-primary rounded-full blur-xl opacity-70"></div>
+    
+    {/* Profile Image Container */}
+    <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl bg-muted">
+      <img
+        src="/profilePic.jpg"
+        alt="Professional portrait"
+        className="w-full h-full object-cover object-center"
+        style={{ 
+          imageRendering: 'auto' as const,
+          objectPosition: '50% 50%'
+        }}
+      />
+    </div>
+  </div>
+</div>
         </div>
         <div className="flex justify-center mt-16 lg:mt-24 animate-bounce">
           <Button

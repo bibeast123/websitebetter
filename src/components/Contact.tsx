@@ -106,7 +106,7 @@ const Contact = () => {
                   asChild
                 >
                   <a 
-                    href="/resume.pdf" 
+                    href="public/BidhanDevkotaResume.pdf" 
                     download="Bidhan_Devkota_Resume.pdf"
                     aria-label="Resume"
                   >
@@ -115,7 +115,7 @@ const Contact = () => {
                 </Button>
                 <h3 className="text-lg font-medium mb-1">Resume</h3>
                 <a
-                  href="/resume.pdf"
+                  href="public/BidhanDevkotaResume.pdf"
                   download="Bidhan_Devkota_Resume.pdf"
                   className="text-primary hover:underline"
                 >

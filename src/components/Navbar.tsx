@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { FileDown } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -65,12 +66,37 @@ const Navbar = () => {
             Contact
           </button>
         </nav>
+        <div className="flex items-center space-x-4">
+          {/* Social Media Icons */}
+          <a
+            href="https://www.linkedin.com/in/bidhan-devkota/" // Replace with your LinkedIn URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-primary transition-colors"
+          >
+            <Linkedin size={20} />
+          </a>
+          <a
+            href="https://github.com/bibeast123" // Replace with your GitHub URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-primary transition-colors"
+          >
+            <Github size={20} />
+          </a>
+          <a
+            href="mailto:bidhan.devkota@gmail.com" // Replace with your email
+            className="text-foreground hover:text-primary transition-colors"
+          >
+            <Mail size={20} />
+          </a>
+        </div>
         <Button 
           size="sm" 
           className="hidden md:flex items-center gap-2"
           asChild
         >
-          <a href="/resume.pdf" download="Bidhan_Devkota_Resume.pdf">
+          <a href="/BidhanDevkotaResume.pdf" download="Bidhan_Devkota_Resume.pdf">
             <FileDown size={16} />
             Resume
           </a>
@@ -159,7 +185,7 @@ const Navbar = () => {
             className="flex items-center gap-2 w-full justify-center"
             asChild
           >
-            <a href="/resume.pdf" download="Bidhan_Devkota_Resume.pdf">
+            <a href="/BidhanDevkotaResume.pdf" download="Bidhan_Devkota_Resume.pdf">
               <FileDown size={16} />
               Resume
             </a>

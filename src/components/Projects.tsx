@@ -11,7 +11,7 @@ const projects = [
     title: "Austin Wheels",
     description:
       "A website serving the wheelchair-bound community in the Austin Area, providing information about wheelchair-accessible locations and transportation options in the Greater Austin Area.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    image: "logoaw.20f707dc47846cab4257 (1).png",
     technologies: ["React", "JavaScript", "Accessibility", "Google Maps API"],
     liveLink: "#",
     repoLink: "https://github.com/bibeast123/austin-wheels",
@@ -21,7 +21,7 @@ const projects = [
     title: "AI Data Optimizer",
     description:
       "Machine learning model with front end showing an Internet Usage recommender. Helps users optimize their data usage patterns and suggests better plans.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "generative-ai-social-1600x627 (1).png",
     technologies: ["Python", "Flask", "Machine Learning", "HTML/CSS"],
     liveLink: "#",
     repoLink: "https://github.com/bibeast123/ai-data-optimizer",
@@ -31,7 +31,7 @@ const projects = [
     title: "Recell",
     description:
       "Full Stack website marketplace for people to list, discover and safely dispose of electronics. Features secure transactions, user ratings, and environmental impact tracking.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "recell im2 (1).png",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     liveLink: "#",
     repoLink: "https://github.com/bibeast123/recell",
@@ -41,7 +41,7 @@ const projects = [
     title: "March Madness Predictor",
     description:
       "Machine learning project that aims to predict the outcome of March Madness matchups using historical data found on Kaggle.",
-    image: "https://images.unsplash.com/photo-1546519638-68e109acd27d",
+    image: "download (1).png",
     technologies: ["Python", "Machine Learning", "pandas", "NumPy", "Matplotlib"],
     liveLink: "#",
     repoLink: "https://github.com/bibeast123/march-madness-predictor",
@@ -51,7 +51,7 @@ const projects = [
     title: "Amazon Price Tracker",
     description:
       "Automation Web Scraper using Python and Selenium that tracks product prices on Amazon and alerts users when prices drop below their target.",
-    image: "https://images.unsplash.com/photo-1523289619493-a2186f38e263",
+    image: "download (2).png",
     technologies: ["Python", "Selenium", "Web Scraping", "Automation"],
     liveLink: "#",
     repoLink: "https://github.com/bibeast123/amazon-price-tracker",
