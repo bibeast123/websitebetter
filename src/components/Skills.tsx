@@ -1,44 +1,30 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
 
 const skillCategories = [
   {
     id: 1,
     name: "Languages",
     skills: [
-      { name: "Java", level: 90 },
-      { name: "Python", level: 85 },
-      { name: "TypeScript/JavaScript", level: 80 },
-      { name: "C/C++", level: 75 },
-      { name: "Kotlin", level: 70 },
-      { name: "HTML/CSS", level: 85 },
-      { name: "SQL", level: 75 },
+      "Java", "Python", "TypeScript/JavaScript", "C/C++", 
+      "Kotlin", "HTML/CSS", "SQL"
     ],
   },
   {
     id: 2,
     name: "Frameworks & Libraries",
     skills: [
-      { name: "React", level: 85 },
-      { name: "Angular", level: 75 },
-      { name: "Node.js", level: 80 },
-      { name: "Flask/FastAPI", level: 75 },
-      { name: "TensorFlow", level: 70 },
-      { name: "pandas/NumPy", level: 80 },
+      "React", "Angular", "Node.js", "Flask/FastAPI", 
+      "TensorFlow", "pandas/NumPy"
     ],
   },
   {
     id: 3,
     name: "Tools & Platforms",
     skills: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 80 },
-      { name: "AWS", level: 75 },
-      { name: "Azure Databricks", level: 70 },
-      { name: "Kubernetes", level: 65 },
-      { name: "JIRA", level: 80 },
+      "Git", "Docker", "AWS", "Azure Databricks", 
+      "Kubernetes", "JIRA"
     ],
   },
 ];
@@ -55,19 +41,14 @@ const Skills = () => {
                 <h3 className="text-xl font-bold mb-6 text-center text-primary">
                   {category.name}
                 </h3>
-                <div className="space-y-6">
+                <ul className="space-y-2">
                   {category.skills.map((skill) => (
-                    <div key={skill.name}>
-                      <div className="flex justify-between mb-2">
-                        <span className="font-medium">{skill.name}</span>
-                        <span className="text-muted-foreground">
-                          {skill.level}%
-                        </span>
-                      </div>
-                      <Progress value={skill.level} className="h-2" />
-                    </div>
+                    <li key={skill} className="flex items-center">
+                      <span className="text-primary mr-2">•</span>
+                      <span className="font-medium">{skill}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </CardContent>
             </Card>
           ))}
