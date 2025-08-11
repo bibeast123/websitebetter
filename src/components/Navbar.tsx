@@ -96,7 +96,7 @@ const Navbar = () => {
           className="hidden md:flex items-center gap-2"
           asChild
         >
-          <a href="public\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
+          <a href="\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
             <FileDown size={16} />
             Resume
           </a>
@@ -184,7 +184,7 @@ const Navbar = () => {
             className="flex items-center gap-2 w-full justify-center"
             asChild
           >
-            <a href="public\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
+            <a href="\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
               <FileDown size={16} />
               Resume
             </a>
