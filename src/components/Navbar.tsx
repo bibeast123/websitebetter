@@ -96,12 +96,11 @@ const Navbar = () => {
           className="hidden md:flex items-center gap-2"
           asChild
         >
-          <a href="/BidhanDevkotaResume.pdf" download="Bidhan_Devkota_Resume.pdf">
+          <a href="public\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
             <FileDown size={16} />
             Resume
           </a>
         </Button>
-
         {/* Mobile menu button */}
         <Button
           variant="ghost"
@@ -185,7 +184,7 @@ const Navbar = () => {
             className="flex items-center gap-2 w-full justify-center"
             asChild
           >
-            <a href="/BidhanDevkotaResume.pdf" download="Bidhan_Devkota_Resume.pdf">
+            <a href="public\Bidhan_Resume_Software_Engineer.pdf" download="Bidhan_Resume_Software_Engineer.pdf">
               <FileDown size={16} />
               Resume
             </a>

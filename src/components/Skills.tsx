@@ -23,7 +23,7 @@ const skillCategories = [
     id: 3,
     name: "Tools & Platforms",
     skills: [
-      "Git", "Docker", "AWS", "Azure Databricks", 
+      "Git", "Docker", "Salesforce", "Wireshark", "Tableau", "AWS", "Azure Databricks", 
       "Kubernetes", "JIRA"
     ],
   },
